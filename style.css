@@ -136,3 +136,11 @@ a:hover {
 .precipitation {
   list-style-type: none;
 }
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  font-size: 20px;
+}
