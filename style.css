@@ -1,5 +1,138 @@
-h1 {
+body {
   text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
+  padding: 80px;
+  background-image: url("Images/OutlineCityLandmarks.jpg");
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(158, 187, 197)
+  );
+}
+
+h1 {
+  color: #9ebbc5;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 15px;
+  color: rgb(77, 79, 105);
+}
+
+h3 {
+  color: rgb(77, 79, 105);
+  font-size: 14px;
+}
+
+.current-temperature {
   font-size: 60px;
-  color: blue;
+}
+
+#current-location {
+  transition: 150ms ease-in-out;
+  color: rgb(77, 79, 105);
+  background-color: rgba(255, 255, 255, 0.616);
+  border-color: rgb(77, 79, 105);
+}
+
+#current-location:hover {
+  color: rgb(77, 79, 105);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sun-icon {
+  color: rgb(77, 79, 105);
+}
+
+.cloud-sun-icon {
+  color: rgba(158, 187, 197);
+}
+
+.rain-icon {
+  color: grey;
+}
+
+.current-weather {
+  font-size: 60px;
+}
+
+.searchbar {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.d-flex {
+  margin: 0 auto;
+  display: block;
+  max-width: 30%;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  color: rgb(1, 1, 54, 0.8);
+}
+
+.searchbutton {
+  margin: 0 10px;
+  transition: 150ms ease-in-out;
+  color: rgb(77, 79, 105);
+  background-color: rgba(255, 255, 255, 0.616);
+  border-color: rgb(77, 79, 105);
+}
+
+.searchbutton:hover {
+  color: rgb(77, 79, 105);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: #000;
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+  box-shadow: 10px 15px 50px 0px rgba(151, 152, 153, 0.4);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+.rounded-corners {
+  border-radius: 15px;
+  opacity: 0.2;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+  color: rgba(158, 187, 197);
+  font-size: 23px;
+}
+
+a {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgba(158, 187, 197);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.precipitation {
+  list-style-type: none;
 }
