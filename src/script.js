@@ -106,6 +106,8 @@ currentPosition.addEventListener("click", getPosition);
 
 //convert temperature
 
+//convert temperature
+
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#current-temperature");
