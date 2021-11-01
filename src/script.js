@@ -65,7 +65,7 @@ function showTemperature(response) {
   console.log(response.data);
   let currentTemp = Math.round(response.data.main.temp);
   let temperature = document.querySelector("#current-temperature");
-  temperature.innerHTML = `${currentTemp} °C`;
+  temperature.innerHTML = `${currentTemp}`;
   let tempMin = document.querySelector("#todays-min");
   let todaysMin = Math.round(response.data.main.temp_min);
   tempMin.innerHTML = `L:${todaysMin}°C`;
